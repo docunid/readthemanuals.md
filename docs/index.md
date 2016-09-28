@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Infrastructure Delivery
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+For full documentation visit [DocUnid@GitHub](https://docunid.github.io/).
 
-## Commands
+## Structure
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+* `AWs` - About AWS.
+* `VCS` - About GitLab.
+* `CI/CD` - About CICD.
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    On paper...

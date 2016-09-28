@@ -1,5 +1,11 @@
 site_name: Infrastructure Delivery
+repo_url: https://github.com/docunid/readthemanuals.md/
 pages:
 - Home: index.md
+- Platform:
+   - 'AWS': 'aws/index.md' 
+   - 'VCS': 'vcs/index.md'
+   - 'CI/CD': 'cicd/index.md'
+- Services: about.md   
 - About: about.md
 theme: readthedocs
