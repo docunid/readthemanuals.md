@@ -1,12 +1,12 @@
-# Infrastructure Delivery
+# Welcome to Read The Eximple Docs
 
 For full documentation visit [DocUnid@GitHub](https://docunid.github.io/).
 
 ## Structure
 
-* `AWs` - About AWS.
-* `VCS` - About GitLab.
-* `CI/CD` - About CICD.
+* `Us` - About Us.
+* `VCS` - About distributed version control.
+* `CI/CD` - About Continuous everything.
 
 ## Project layout
 
