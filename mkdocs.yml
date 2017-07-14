@@ -1,11 +1,18 @@
 site_name: Read The Eximple Docs
+copyright: Eximple
 repo_url: https://github.com/docunid/readthemanuals.md/
+docs_dir: 'docs'
 pages:
 - Home: index.md
 - USER DOCUMENTATION:
-   - 'AWS': 'aws/index.md' 
-   - 'VCS': 'vcs/index.md'
+   - 'AWS': 'aws/index.md'
    - 'CI/CD': 'cicd/index.md'
-- Services: services.md   
+   - MIT:
+      - 'Big Oh': 'mit/bigo.md'
+      - 'Search': 'mit/search.md'
+      - 'Sort': 'mit/sort.md'
+   - 'VB': 'vb/network.md'  
+   - 'VCS': 'vcs/index.md'
+- Services: services.md
 - About: about.md
 theme: readthedocs
