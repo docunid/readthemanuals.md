@@ -1,11 +1,13 @@
 # CoreOS on Bare Metal (Intel NUC Kit DN2820FYK)
 There is some fairly decent documentation on how to install CoreOS on Bare Metal
+
 - [Installing CoreOS Container Linux to disk](https://coreos.com/os/docs/latest/installing-to-disk.html)
 - [How to perform a bare metal installation of CoreOS Linux](https://linuxconfig.org/how-to-perform-a-bare-metal-installation-of-coreos-linux)
 
 But - as always - there are slight variations when getting your hand dirty, is this case with the Intel NUC Kit DN2820FYK. First update the BIOS of the NUC to the latest version, at the time of writing [FY0059.bio](https://downloadcenter.intel.com/download/26898/NUCs-BIOS-Update-FYBYT10H-86A-). Obviously a good idea but I suspect CoreOS will install equally fine with an older BIOS version.
 
-The scramble together a Live Linux Bootable Media Device. In other words create a bootable USB drive with - in this case - CoreOS on it. Just for fun because any other Linux will do equally good. Actually better since CoreOS is not loaded with handy tools.
+Then scramble together a Live Linux Bootable Media Device. In other words create a bootable USB drive with - in this case - CoreOS on it. Just for fun because any other Live Linux will do equally good. Actually better since CoreOS is not loaded with handy tools.
+
 - get USB drive
 - get [UNetbootin](https://unetbootin.github.io/)
 - get [ISO](https://coreos.com/os/docs/latest/booting-with-iso.html)
@@ -14,7 +16,7 @@ But before we create the Bootable Media Device we must take into account that in
 - a container linux config file
 - an install script, located [here](https://coreos.com/os/docs/latest/installing-to-disk.html)
 
-CoreOS favors [Ignition](https://coreos.com/ignition/docs/latest/what-is-ignition.html)) over `coreos-cloudinit` hence we need a container linux config file. And creating that is a two-step proces:
+CoreOS favors [Ignition](https://coreos.com/ignition/docs/latest/what-is-ignition.html) over `coreos-cloudinit` hence we need a container linux config file. And creating that is a two-step proces:
 - write config in YAML
 - transform into json using a config transpiler
 
