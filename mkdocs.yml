@@ -7,11 +7,12 @@ pages:
 - USER DOCUMENTATION:
    - 'AWS': 'aws/index.md'
    - 'CI/CD': 'cicd/index.md'
+   - 'CoreOS': 'coreos/index.md'
    - MIT:
       - 'Big Oh': 'mit/bigo.md'
       - 'Search': 'mit/search.md'
       - 'Sort': 'mit/sort.md'
-   - 'VB': 'vb/network.md'  
+   - 'VB': 'vb/network.md'
    - 'VCS': 'vcs/index.md'
 - Services: services.md
 - About: about.md
