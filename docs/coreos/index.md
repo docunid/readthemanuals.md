@@ -13,10 +13,12 @@ Then scramble together a Live Linux Bootable Media Device. In other words create
 - get [ISO](https://coreos.com/os/docs/latest/booting-with-iso.html)
 
 But before we create the Bootable Media Device we must take into account that installing CoreOS to disk needs two helpers
+
 - a container linux config file
 - an install script, located [here](https://coreos.com/os/docs/latest/installing-to-disk.html)
 
 CoreOS favors [Ignition](https://coreos.com/ignition/docs/latest/what-is-ignition.html) over `coreos-cloudinit` hence we need a container linux config file. And creating that is a two-step proces:
+
 - write config in YAML
 - transform into json using a config transpiler
 
@@ -26,10 +28,10 @@ Off course you'll need to install a config transpiler first. Using prebuilt bina
 Write an config (see [examples](https://coreos.com/os/docs/latest/clc-examples.html) for syntax and more) and run `ct -in-file example.yaml -out-file example.json`. Then check the output [here](https://coreos.com/validate/). For eximple only add ssh key to user core.
 
 ## Bootable Media Device
-We need the config and the install script on the Live Linux, so before we create a bootable USB drive with UNetbootin, let us partition the drive: `diskutil partitionDisk disk2 2 MBR MS-DOS DATA 3G MS-DOS COREOS R` and move coreos-intall script and example.json to DATA. Then create the Bootable Media Device on COREOS by following [these steps](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos).
+We need the config and the install script on the Live Linux, so before we create a bootable USB drive with UNetbootin, let us partition the drive: `diskutil partitionDisk disk2 2 MBR MS-DOS DATA 3G MS-DOS COREOS R` and move the `coreos-install` script and the ignition config `example.json` to DATA. Then create the Bootable Media Device on COREOS by following [these steps](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos).
 
 Now we boot the NUC from USB. Once we get a prompt we mount the DATA partition (`lsblk` and `mkdir <mountpoint>` and `mount /dev/... <mountpoint>` and such). Then we `coreos-install -d /dev/sda -C stable -i example.json` from DATA.
 
 And Bob's your uncle!
 
-Finally you can check by running `journalctl --identifier=ignition --all` after ssh-ing in off course.
+Finally you can check by running `journalctl --identifier=ignition --all`. Mind you, after ssh-ing in of course because CoreOS has no password to login from the console on the Bare Metal. CoreOS is not meant to be "consoled".
