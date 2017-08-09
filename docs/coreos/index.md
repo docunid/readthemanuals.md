@@ -35,3 +35,11 @@ Now we boot the NUC from USB. Once we get a prompt we mount the DATA partition (
 And Bob's your uncle!
 
 Finally you can check by running `journalctl --identifier=ignition --all`. Mind you, after ssh-ing in of course because CoreOS has no password to login from the console on the Bare Metal. CoreOS is not meant to be "consoled".
+
+# Headless
+A headless Linux server is just a server that has no monitor, keyboard or mouse. Apparently `coreos-install` does not play nice with the NUC, it will not boot without a HDMI cable/monitor attached. It looks like the coreos-install script gambles on two monitors for grub, the GRand Universal Bootloader: `set linux_console="console=ttyS0,115200n8 console=tty0"`. Let's override that to make only ttyS0 necessary: append `set linux_console="console=ttyS0,115200n8"` to `/usr/share/oem/grub.cfg`. Reboor without monitor and presto!
+
+# Updating the container linux config file
+Ignition only runs on the first boot. Since Ignition is not typically run more than once during a machine's lifetime in a given role, the situation requiring manual systemd intervention does not commonly arise. But when it does: `sudo systemctl preset-all`. (not tested)
+
+Ignition is usually used to write your desired configuration to disk, so there is no need to run it on later boots.  If you need to perform some operation with Ignition again, you can add `coreos.first_boot=1` to the kernel boot command-line to make it run again. (not tested)
