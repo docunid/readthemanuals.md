@@ -10,25 +10,29 @@ Then scramble together a Live Linux Bootable Media Device. In other words create
 
 - get USB drive
 - get [UNetbootin](https://unetbootin.github.io/)
-- get [ISO](https://coreos.com/os/docs/latest/booting-with-iso.html)
+- get CoreOS [ISO](https://coreos.com/os/docs/latest/booting-with-iso.html)
 
 But before we create the Bootable Media Device we must take into account that installing CoreOS to disk needs two helpers
 
 - a container linux config file
-- an install script, located [here](https://coreos.com/os/docs/latest/installing-to-disk.html)
+- and an install script, located [here](https://coreos.com/os/docs/latest/installing-to-disk.html)
 
-CoreOS favors [Ignition](https://coreos.com/ignition/docs/latest/what-is-ignition.html) over `coreos-cloudinit` hence we need a container linux config file. And creating that is a two-step proces:
+CoreOS favors [Ignition](https://coreos.com/ignition/docs/latest/what-is-ignition.html) over `coreos-cloudinit` hence we need a container linux config file and not a Cloud-Config. Creating a container linux config file is a two-step proces:
 
 - write config in YAML
-- transform into json using a config transpiler
+- transform config into json using a config transpiler
 
 ## Config Transpiler
-Off course you'll need to install a config transpiler first. Using prebuilt binaries: the Container Linux Config Transpiler command line interface, ct for short, can be downloaded from its [GitHub Releases page](https://github.com/coreos/container-linux-config-transpiler/releases). Download it, move it to `/usr/local/bin/ct` or whatever has your fancy and make it executable.
+Off course you'll need to install a config transpiler first.
 
-Write an config (see [examples](https://coreos.com/os/docs/latest/clc-examples.html) for syntax and more) and run `ct -in-file example.yaml -out-file example.json`. Then check the output [here](https://coreos.com/validate/). For eximple only add ssh key to user core.
+Using prebuilt binaries: the Container Linux Config Transpiler command line interface, ct for short, can be downloaded from its [GitHub Releases page](https://github.com/coreos/container-linux-config-transpiler/releases). Download it, move it to `/usr/local/bin/ct` or whatever has your fancy and make it executable.
+
+Then, write a config (see [examples](https://coreos.com/os/docs/latest/clc-examples.html)) and run `ct -in-file example.yaml -out-file example.json`, afterwards check the output [here](https://coreos.com/validate/).
+
+For an handy eximple: only add ssh key to user core.
 
 ## Bootable Media Device
-We need the config and the install script on the Live Linux, so before we create a bootable USB drive with UNetbootin, let us partition the drive: `diskutil partitionDisk disk2 2 MBR MS-DOS DATA 3G MS-DOS COREOS R` and move the `coreos-install` script and the ignition config `example.json` to DATA. Then create the Bootable Media Device on COREOS by following [these steps](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos).
+Now we need the config and the install script on the Live Linux, so before we create a bootable USB drive with UNetbootin, let us partition the drive: `diskutil partitionDisk disk2 2 MBR MS-DOS DATA 3G MS-DOS COREOS R` and move the `coreos-install` script and the ignition config `example.json` to DATA. Then create the Bootable Media Device on partition COREOS by following [these steps](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos).
 
 Now we boot the NUC from USB. Once we get a prompt we mount the DATA partition (`lsblk` and `mkdir <mountpoint>` and `mount /dev/... <mountpoint>` and such). Then we `coreos-install -d /dev/sda -C stable -i example.json` from DATA.
 
