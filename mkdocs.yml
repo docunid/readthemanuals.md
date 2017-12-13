@@ -5,7 +5,6 @@ docs_dir: 'docs'
 pages:
 - Home: index.md
 - USER DOCUMENTATION:
-   - 'AWS': 'aws/index.md'
    - 'CI/CD': 'cicd/index.md'
    - 'CoreOS': 'coreos/index.md'
    - MIT:
@@ -13,7 +12,6 @@ pages:
       - 'Search': 'mit/search.md'
       - 'Sort': 'mit/sort.md'
    - 'VB': 'vb/network.md'
-   - 'VCS': 'vcs/index.md'
-- Services: services.md
+- Vocabulary: vocabulary.md
 - About: about.md
 theme: readthedocs
