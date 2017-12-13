@@ -2,12 +2,10 @@
 
 For full documentation visit [DocUnid@GitHub](https://docunid.github.io/).
 
-## Structure
+## Index
 
-* `Us` - About Us.
-* `VCS` - About distributed version control.
-* `CI/CD` - About Continuous everything.
+USER DOCUMENTATION
 
-## Project layout
-
-    On paper...
+* `CI/CD` - About Continuous everythings
+* `VB` - About...ah well, see for yourself  
+* `About` - About Eximple
