@@ -14,6 +14,6 @@ pages:
    - 'VB': 'vb/network.md'
    - Mumbo Jumbo: 
       - mumbojumbo/miscellaneous.md
-      - mumbojumbo/node.nd
+      - mumbojumbo/node.md
 - About: about.md
 theme: readthedocs
