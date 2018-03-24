@@ -7,5 +7,8 @@ For full documentation visit [DocUnid@GitHub](https://docunid.github.io/).
 USER DOCUMENTATION
 
 * `CI/CD` - About Continuous everythings
-* `VB` - About...ah well, see for yourself  
+* `CoreOS` - Nothing about cores
+* `MIT` - My IT :) 
+* `Techno Mumbo Jumbo`- Techno Mumbo Jumbo (we're good at it)
+* `VB` - About...ah well, see for yourself
 * `About` - About Eximple
