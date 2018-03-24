@@ -15,5 +15,6 @@ pages:
    - Mumbo Jumbo: 
       - mumbojumbo/miscellaneous.md
       - mumbojumbo/node.md
+      - mumbojumbo/staticwebsite.md
 - About: about.md
 theme: readthedocs
