@@ -8,7 +8,7 @@ USER DOCUMENTATION
 
 * `CI/CD` - About Continuous everythings
 * `CoreOS` - Nothing about cores
-* `MIT` - My IT :) 
+* `MIT` - My IT :)
 * `Techno Mumbo Jumbo`- Techno Mumbo Jumbo (we're good at it)
-* `VB` - About...ah well, see for yourself
+* `Virtual Boxing` - About...ah well, see for yourself
 * `About` - About Eximple

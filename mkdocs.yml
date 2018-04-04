@@ -11,9 +11,10 @@ pages:
       - 'Big Oh': 'mit/bigo.md'
       - 'Search': 'mit/search.md'
       - 'Sort': 'mit/sort.md'
-   - 'VB': 'vb/network.md'
+   - Virtual Boxing: 'vb/network.md'
    - Mumbo Jumbo: 
       - mumbojumbo/miscellaneous.md
+      - mumbojumbo/m.2.md
       - mumbojumbo/node.md
       - mumbojumbo/proxy.md
       - mumbojumbo/staticwebsite.md
