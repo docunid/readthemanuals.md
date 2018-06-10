@@ -7,6 +7,8 @@ pages:
 - USER DOCUMENTATION:
    - 'CI/CD': 'cicd/index.md'
    - 'CoreOS': 'coreos/index.md'
+   - RDDC:
+      - 'k8s on pi': 'rddc/k8spi.md'
    - MIT:
       - 'Big Oh': 'mit/bigo.md'
       - 'Search': 'mit/search.md'
