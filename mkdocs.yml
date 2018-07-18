@@ -15,6 +15,7 @@ pages:
       - 'Sort': 'mit/sort.md'
    - Virtual Boxing: 'vb/network.md'
    - Mumbo Jumbo: 
+      - mumbojumbo/dev.md
       - mumbojumbo/miscellaneous.md
       - mumbojumbo/m.2.md
       - mumbojumbo/node.md
