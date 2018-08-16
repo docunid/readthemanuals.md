@@ -13,3 +13,4 @@
 ## fun and games
 
 - fork bomb `:(){ :|: & };:` (Create a function that calls itself twice every call and doesn't have any way to terminate itself. It will keep doubling up until you run out of system resources.)
+- never ending proces 'cat /dev/zero' (/dev/zero returns infinitely 0-bytes. The process will never end.)
