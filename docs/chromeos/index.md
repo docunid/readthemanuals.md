@@ -1,6 +1,6 @@
 # chromeos
 
-When I decided NOT to take my latest (somewhat fragile) powerbook on a rough holiday AND Google officially unveiled Project Crostini, I decided to
+When I decided NOT to take my latest (somewhat fragile and expensive) powerbook on a rough holiday AND Google officially unveiled Project Crostini, I decided to
 take my cheap-years-old-dust-collecting XE303C12 chromebook for a makeover. Linux apps on Chrome OS is usefull on a machine that is not costing too
 much when damaged.
 
