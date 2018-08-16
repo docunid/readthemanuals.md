@@ -6,6 +6,7 @@ pages:
 - Home: index.md
 - USER DOCUMENTATION:
    - 'CI/CD': 'cicd/index.md'
+   - 'ChromeOS': 'chromeos/index.md'
    - 'CoreOS': 'coreos/index.md'
    - RDDC:
       - 'k8s on pi': 'rddc/k8spi.md'
