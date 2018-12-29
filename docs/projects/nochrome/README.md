@@ -13,7 +13,7 @@ zero).
 
 [https://www.androidcentral.com/how-install-linux-apps-your-chromebook](https://www.androidcentral.com/how-install-linux-apps-your-chromebook)
 
-So, what's next? A chroot perhaps? Enter crouton :)     
+So, what's next? A chroot perhaps? Enter crouton :)
 
 ## crouton (Ctrl-D)
 
@@ -24,8 +24,6 @@ is allmost too easy to install. It does make your chromebook less secure and lac
 
 ## usb boot (Ctrl-U)
 
-Allright, but what if I want full-blown Linux on my ARM device? Well, there is an excellent installation guide for the XE303C12 from Arch Linux.  
- 
-[https://archlinuxarm.org/platforms/armv7/samsung/samsung-chromebook](https://archlinuxarm.org/platforms/armv7/samsung/samsung-chromebook)
+Allright, but what if I want full-blown Linux on my ARM device? Well, there is an [excellent installation guide](https://archlinuxarm.org/platforms/armv7/samsung/samsung-chromebook) for the XE303C12 from Arch Linux. This works fine also. And because I installed on USB flashdrive the goold old cromebook now has triple boot (standard, chroot and usb).
 
-This works fine also.
+![chromebook](chromebook.jpg)

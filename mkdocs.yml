@@ -4,23 +4,19 @@ repo_url: https://github.com/docunid/readthemanuals.md/
 docs_dir: 'docs'
 pages:
 - Home: index.md
-- USER DOCUMENTATION:
-   - 'CI/CD': 'cicd/index.md'
-   - 'ChromeOS': 'chromeos/index.md'
-   - 'CoreOS': 'coreos/index.md'
-   - RDDC:
-      - 'k8s on pi': 'rddc/k8spi.md'
-   - MIT:
-      - 'Big Oh': 'mit/bigo.md'
-      - 'Search': 'mit/search.md'
-      - 'Sort': 'mit/sort.md'
-   - Virtual Boxing: 'vb/network.md'
-   - Mumbo Jumbo: 
-      - mumbojumbo/dev.md
-      - mumbojumbo/miscellaneous.md
-      - mumbojumbo/m.2.md
-      - mumbojumbo/node.md
-      - mumbojumbo/proxy.md
-      - mumbojumbo/staticwebsite.md
+- Projects:
+   - 'coresnuc': 'coresnuc/README.md'
+   - 'k8spis': 'k8spis/README.md'
+   - 'nochrome': 'nochrome/README.md'
+   - 'virtualboxing': 'virtualboxing/README.md'
+- Mumbo Jumbo: 
+  - mumbojumbo/cicd/README.md
+   - mumbojumbo/dev.md
+   - mumbojumbo/miscellaneous.md
+   - mumbojumbo/mit/README.md
+   - mumbojumbo/m.2.md
+   - mumbojumbo/node.md
+   - mumbojumbo/proxy.md
+   - mumbojumbo/staticwebsite.md
 - About: about.md
 theme: readthedocs

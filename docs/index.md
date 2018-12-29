@@ -6,4 +6,4 @@
 
 "No Techno Mumbo Jumbo (although we're good at it). We keep your automation uncluttered and simple."
 
-Well, as long as you've come this far: here you'll find some techno ramblings. Enjoy. Or not :)
+Well, as long as you've come this far...here you'll find some techno ramblings. Enjoy. Or not :)
