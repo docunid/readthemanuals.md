@@ -6,10 +6,9 @@ When developing with multiple people in a single repository you face some challe
 
 Development starts with branching from the main line, thus creating a separate line of coding a.k.a. feature branch. This feature branch will eventually merge back into the main line (better sooner than later, the Small Batches Principle) but during the lifecycle of a feature branch you will need an environment specific to that feature. We call this a feature branch environment or `fbe` for short. During active development a multitude of fbe's can be present at any moment.
 
-
 *Figure one:*
 
-```
+```txt
 fb_A                  o----------o-----o
                      /        CI        \ MR      
 master -------------o--------o----o------o------o------ CD
@@ -19,8 +18,7 @@ fb_B                            o---o---o--o
 
 ```
 
-*Feature branch (environment) A "fb_A" is created by branching from the main (master) line. "fb_A" and its environment ceases to exist just before the merge request (MR) into branch master. During the lifecycle of a feature branch (environment) we do development and continuous integration (CI). Once merged into master the continuous deployment starts (CD)*
-
+Feature branch (environment) A "fb_A" is created by branching from the main (master) line. "fb_A" and its environment ceases to exist just before the merge request (MR) into branch master. During the lifecycle of a feature branch (environment) we do development and continuous integration (CI). Once merged into master the continuous deployment starts (CD)
 
 ## Feature branch environment (fbe)
 
