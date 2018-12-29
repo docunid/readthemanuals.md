@@ -20,10 +20,12 @@ So, what's next? A chroot perhaps? Enter crouton :)
 Crouton is an universal chroot in Chrome OS developer mode. You start with Ctrl-D after enabling developer mode on the chromebook. It works fine and
 is allmost too easy to install. It does make your chromebook less secure and lacks obvious functionality (it is after all a chroot jail) but hey, I can do Linux on my holidayz!
 
-[https://github.com/dnschneid/crouton](https://github.com/dnschneid/crouton) 
+[https://github.com/dnschneid/crouton](https://github.com/dnschneid/crouton)
+
+![crosh](crosh.jpg)
 
 ## usb boot (Ctrl-U)
 
 Allright, but what if I want full-blown Linux on my ARM device? Well, there is an [excellent installation guide](https://archlinuxarm.org/platforms/armv7/samsung/samsung-chromebook) for the XE303C12 from Arch Linux. This works fine also. And because I installed on USB flashdrive the goold old cromebook now has triple boot (standard, chroot and usb).
 
-![chromebook](chromebook.jpg)
+![arm](arm.jpg)
