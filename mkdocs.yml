@@ -10,7 +10,7 @@ pages:
    - 'nochrome': 'nochrome/README.md'
    - 'virtualboxing': 'virtualboxing/README.md'
 - Mumbo Jumbo: 
-  - mumbojumbo/cicd/README.md
+   - mumbojumbo/cicd/README.md
    - mumbojumbo/dev.md
    - mumbojumbo/miscellaneous.md
    - mumbojumbo/mit/README.md
