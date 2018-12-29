@@ -11,7 +11,7 @@ pages:
    - 'virtualboxing': 'projects/virtualboxing/README.md'
 - Mumbo Jumbo: 
    - 'cicd': mumbojumbo/cicd/README.md
-   - mumbojumbo/dev.md
+   - mumbojumbo/devnull.md
    - mumbojumbo/miscellaneous.md
    - 'mit': mumbojumbo/mit/README.md
    - mumbojumbo/m.2.md

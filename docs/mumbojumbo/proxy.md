@@ -15,7 +15,6 @@ But generally.. not all queries go through the entire stack..
 Everything goes through haproxy and nginx/multiple nginx's.
 The only difference is you "bolt" on varnish for static requests..
 
-
 __HAproxy__ is simpler (being just a tcp proxy without an http implementation), which makes it faster and less bug prone. I've had nginx crash on me in a reverse-proxy-load-balancer configuration, but not haproxy. The downside is that you can't route based on information in the http layer, like session cookies or url paths. nginx can also cache requests, which haproxy can't do.
 
 __HAProxy__ is a superior load balancer to nginx. HAProxy can do out-of-band health checks, whereas nginx only knows a backend to be "down" when it serves a 500. Also, HAProxy is a general TCP load balancer, whereas nginx will work only on HTTP traffic.
