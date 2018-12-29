@@ -5,10 +5,10 @@ docs_dir: 'docs'
 pages:
 - Home: index.md
 - Projects:
-   - 'coresnuc': 'coresnuc/README.md'
-   - 'k8spis': 'k8spis/README.md'
-   - 'nochrome': 'nochrome/README.md'
-   - 'virtualboxing': 'virtualboxing/README.md'
+   - 'coresnuc': 'projects/coresnuc/README.md'
+   - 'k8spis': 'projects/k8spis/README.md'
+   - 'nochrome': 'projects/nochrome/README.md'
+   - 'virtualboxing': 'projects/virtualboxing/README.md'
 - Mumbo Jumbo: 
    - mumbojumbo/cicd/README.md
    - mumbojumbo/dev.md
