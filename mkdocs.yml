@@ -7,6 +7,8 @@ pages:
 - Projects:
    - 'coresnuc': 'projects/coresnuc/README.md'
    - 'k8spis': 'projects/k8spis/README.md'
+   - 'loragate': 'projects/loragate/README.md'
+   - 'loranode': 'projects/loranode/README.md'
    - 'nochrome': 'projects/nochrome/README.md'
    - 'virtualboxing': 'projects/virtualboxing/README.md'
 - Mumbo Jumbo: 
