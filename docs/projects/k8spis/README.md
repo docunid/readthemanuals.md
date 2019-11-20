@@ -11,3 +11,9 @@ Every PI will boot into the wireless netwerk running on the AP. I'll join the sa
 Offcourse a [Web UI](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/) every now and then is nice, so deploy then tunnel (or `kubectl proxy`) et voilà!
 
 ![dasbhoard](dasher.png)
+
+## update
+
+Above setup was based on `kubeadm` but with k3s from [https://rancher.com/](Rancher) you get a fully compliant yet lightweight Kubernetes distribution, of which the intallation is easy to autmate with [https://github.com/alexellis/k3sup#-micro-tutorial-for-raspberry-pi-2-3-or-4-](k3sup). Up-and-running in literally minutes.
+
+![cluster](k3s.png)
