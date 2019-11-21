@@ -14,6 +14,6 @@ Offcourse a [Web UI](https://kubernetes.io/docs/tasks/access-application-cluster
 
 ## update
 
-Above setup was based on `kubeadm`. But now with k3s from [Rancher](https://rancher.com/) you get a fully compliant yet lightweight Kubernetes distribution of which the installation onto Raspberry PI is easy to automate with [k3sup](https://github.com/alexellis/k3sup#-micro-tutorial-for-raspberry-pi-2-3-or-4-). Up-and-running in literally minutes.
+Above setup was based on `kubeadm`. But now with k3s from [Rancher](https://rancher.com/) you get a fully compliant yet lightweight Kubernetes distribution of which the installation onto Raspberry PI is easy to automate with [k3sup](https://github.com/alexellis/k3sup#-micro-tutorial-for-raspberry-pi-2-3-or-4-). Up-and-running in literally minutes: `kubectl get node --output wide`
 
 ![cluster](k3s.png)
