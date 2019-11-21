@@ -19,6 +19,7 @@ pages:
    - mumbojumbo/m.2.md
    - mumbojumbo/node.md
    - mumbojumbo/proxy.md
+   - mumbojumbo/stacked.md
    - mumbojumbo/staticwebsite.md
 - About: about.md
 theme: readthedocs
