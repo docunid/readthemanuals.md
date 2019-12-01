@@ -8,4 +8,4 @@ An Advent calendar is a special calendar used to count the days of Advent in ant
 
 A retro-game a day keeps the computer away :) Not only fun but also gut for my German! What follows is a detailed account of 24 days with my Advent calender.
 
-- Day [One](01.md)
+- Day [One](day/01.md)
