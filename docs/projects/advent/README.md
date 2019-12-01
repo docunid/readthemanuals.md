@@ -4,6 +4,8 @@ An Advent calendar is a special calendar used to count the days of Advent in ant
 
 ![retrospiele](img/retrospiele.jpg)
 
-(Electronic Retro-Games). A retro-game a day keeps the computer away :) Not only fun but also gut for my German! What follows is a detailed account of 24 days with my Advent calender.
+(Electronic Retro-Games)
 
-- Day [One](01.md): Unboxing and the hidden pipe
+A retro-game a day keeps the computer away :) Not only fun but also gut for my German! What follows is a detailed account of 24 days with my Advent calender.
+
+- Day [One](../01.md): Unboxing and the hidden pipe
