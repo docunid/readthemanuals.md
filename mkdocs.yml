@@ -6,6 +6,7 @@ pages:
 - Home: index.md
 - Projects:
    - 'advent': 'projects/advent/index.md' 
+      - 'Day One': 'projects/advent/day/01.md'
    - 'coresnuc': 'projects/coresnuc/README.md'
    - 'k8spis': 'projects/k8spis/README.md'
    - 'loragate': 'projects/loragate/README.md'
