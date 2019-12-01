@@ -5,7 +5,7 @@ docs_dir: 'docs'
 pages:
 - Home: index.md
 - Projects:
-   - 'advent': 'projects/advent/README.md' 
+   - 'advent': 'projects/advent/index.md' 
    - 'coresnuc': 'projects/coresnuc/README.md'
    - 'k8spis': 'projects/k8spis/README.md'
    - 'loragate': 'projects/loragate/README.md'
