@@ -6,7 +6,8 @@ pages:
 - Home: index.md
 -  Advent:
    - 'Calender': 'projects/advent/index.md' 
-   - 'Day One': 'projects/advent/day/01.md'
+   - 'Day One': 'projects/advent/01/01.md'
+   - 'Day Two': 'projects/advent/02/02.md'
 - Projects:
    - 'coresnuc': 'projects/coresnuc/README.md'
    - 'k8spis': 'projects/k8spis/README.md'
