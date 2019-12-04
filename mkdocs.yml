@@ -8,6 +8,8 @@ pages:
    - 'Calender': 'projects/advent/index.md' 
    - 'Day One': 'projects/advent/01/01.md'
    - 'Day Two': 'projects/advent/02/02.md'
+   - 'Day Three': 'projects/advent/03/03.md'
+   - 'Day Four': 'projects/advent/04s/04.md'
 - Projects:
    - 'coresnuc': 'projects/coresnuc/README.md'
    - 'k8spis': 'projects/k8spis/README.md'
