@@ -2,9 +2,11 @@
 
 ![door](door.jpg)
 
-The components...yet another resistor, hard to resist them :) This time 10&#8486;
+The components...yet another resistor, hard to resist them :) This time 10 k&#8486;
 
 ![components](components.jpg)
+
+![resist10k](resist10k.png)
 
 ## Game: Concentration game
 

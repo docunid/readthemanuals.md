@@ -2,9 +2,13 @@
 
 ![door](door.jpg)
 
-The components...a microcontroller HT46F47, some ceramic capacitors and resistors. The capacitors (aka condensers) act as small batteries that charge and discharge rapidly.
+The components...a microcontroller HT46F47, some ceramic capacitors and resistors. The capacitors (aka condensers) act as small batteries that charge and discharge rapidly. The resistors are 27 k&#8486; and 47 k&#8486;.
 
 ![components](components.jpg)
+
+![resist27k](resist27k.png)
+
+![resist47k](resist47k.png)
 
 ## Game: The time bomb defusion
 
