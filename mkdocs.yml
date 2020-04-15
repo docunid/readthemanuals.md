@@ -6,13 +6,15 @@ pages:
 - Home: index.md
 -  Advent:
    - 'Calender': 'projects/advent/index.md' 
-   - 'Door 1': 'projects/advent/01/01.md'
-   - 'Door 2': 'projects/advent/02/02.md'
-   - 'Door 3': 'projects/advent/03/03.md'
-   - 'Door 4': 'projects/advent/04/04.md' 
-   - 'Door 5': 'projects/advent/05/05.md'
-   - 'Door 6': 'projects/advent/06/06.md'
-   - 'Door 7': 'projects/advent/07/07.md'
+   - 'Door 1': 'projects/advent/01/readme.md'
+   - 'Door 2': 'projects/advent/02/readme.md'
+   - 'Door 3': 'projects/advent/03/readme.md'
+   - 'Door 4': 'projects/advent/04/readme.md' 
+   - 'Door 5': 'projects/advent/05/readme.md'
+   - 'Door 6': 'projects/advent/06/readme.md'
+   - 'Door 7': 'projects/advent/07/readme.md'
+   - 'Door 8': 'projects/advent/08/readme.md'
+   - 'Door 9': 'projects/advent/09/readme.md'
 - Projects:
    - 'coresnuc': 'projects/coresnuc/README.md'
    - 'k8spis': 'projects/k8spis/README.md'
