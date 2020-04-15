@@ -2,9 +2,11 @@
 
 ![door](door.jpg)
 
-The components...you've got to be kidding me: a single resistor. Hard to resist putting that in a game :)
+The components...you've got to be kidding me: a single resistor. Hard to resist putting that in a game :) 100 k&#8486; this time.
 
 ![components](components.jpg)
+
+![resist100k](resist100k.png)
 
 ## Game: Buzz Wire Game 2.0
 
