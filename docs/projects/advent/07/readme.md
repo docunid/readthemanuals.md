@@ -2,7 +2,7 @@
 
 ![door](door.jpg)
 
-The components...you've got to be kidding me: a single resistor. Hard to resist putting that in a game :) 100 k&#8486; this time.
+The components...you've got to be kidding me: a single resistor. Hard to resist putting that in a game :) 100 k&#8486; this time, with 5% tolorance. Tolerance is the percentage of error in the resistor's resistance, or how much more or less you can expect a resistor's actual measured resistance to be from its stated resistance. A gold tolerance band is 5% tolerance, silver is 10%, and no band at all would mean a 20% tolerance.
 
 ![components](components.jpg)
 

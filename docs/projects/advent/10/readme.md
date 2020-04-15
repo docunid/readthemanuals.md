@@ -2,7 +2,7 @@
 
 ![door](door.jpg)
 
-The components...yet another resistor, hard to resist them :) This time 10 k&#8486;
+The components...yet another resistor, hard to resist them :) This time 10 k&#8486;.
 
 ![components](components.jpg)
 
