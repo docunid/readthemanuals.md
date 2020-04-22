@@ -1,6 +1,6 @@
 # Door 1
 
-Unboxing...a DYI console! For the real retro feelig :)
+Unboxing...a DYI console! For the real retro feeling :)
 
 ![console](console.jpg)
 
