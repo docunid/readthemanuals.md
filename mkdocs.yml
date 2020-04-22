@@ -16,6 +16,8 @@ pages:
    - 'Door 8': 'projects/advent/08/readme.md'
    - 'Door 9': 'projects/advent/09/readme.md'
    - 'Door 10': 'projects/advent/10/readme.md'
+   - 'Door 11': 'projects/advent/11/readme.md'
+   - 'Door 12': 'projects/advent/12/readme.md'
 - Projects:
    - 'coresnuc': 'projects/coresnuc/README.md'
    - 'k8spis': 'projects/k8spis/README.md'
