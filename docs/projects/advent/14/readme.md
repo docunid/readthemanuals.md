@@ -2,7 +2,7 @@
 
 ![door](door.jpg)
 
-The components...resistance day again, this time it is 22 k&#8486; of resistance.
+The components...a through-hole resistor with long, pliable leads. This time it is 22 k&#8486; of resistance.
 
 ![components](components.jpg)
 
