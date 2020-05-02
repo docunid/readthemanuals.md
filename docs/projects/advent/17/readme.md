@@ -12,7 +12,6 @@ The components...a passive two-terminal electrical component that implements ele
 
 Aim of the game: Whac the moles.
 
-
-
-
 ![game](game.jpg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qDT4Ript-yo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
