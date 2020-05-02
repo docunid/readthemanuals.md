@@ -10,7 +10,7 @@ The components...a through-hole resistor with long, pliable leads. This time it 
 
 Well..almost!
 
-![resist68k](resist676k.png)
+![resist676k](resist676k.jpg)
 
 ## Game: Ping Pong Pro
 
