@@ -1,6 +1,6 @@
 # Aftermath
 
-The complete componets collection
+The complete components collection
 
 ![components](components.jpg)
 

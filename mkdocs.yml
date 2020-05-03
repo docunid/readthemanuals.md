@@ -5,7 +5,7 @@ docs_dir: 'docs'
 pages:
 - Home: index.md
 -  Advent:
-   - 'Calender': 'projects/advent/index.md' 
+   - 'Calender': 'projects/advent/calender/readme.md' 
    - 'Door 1': 'projects/advent/01/readme.md'
    - 'Door 2': 'projects/advent/02/readme.md'
    - 'Door 3': 'projects/advent/03/readme.md'
