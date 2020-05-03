@@ -2,7 +2,7 @@
 
 ![door](door.jpg)
 
-The components...a single red LED, okay that's mildly disappointing. But still: it has the built-in resistor so who can resist?
+The components...a single red light-emitting diode (LED), okay that's mildly disappointing. But still: it has the built-in resistor so who can resist?
 :P
 
 ![components](components.jpg)
