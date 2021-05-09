@@ -38,16 +38,15 @@ pages:
    - 'loranode': 'projects/loranode/README.md'
    - 'nochrome': 'projects/nochrome/README.md'
    - 'xmpls': 'projects/xmpls/README.md'
+   - 'yoda': 'projects/yoda/README.md'
 - Mumbo Jumbo: 
    - 'cicd': mumbojumbo/cicd/README.md
    - mumbojumbo/devnull.md
    - mumbojumbo/miscellaneous.md
    - 'mit': mumbojumbo/mit/README.md
    - mumbojumbo/m.2.md
-   - mumbojumbo/node.md
    - mumbojumbo/proxy.md
    - mumbojumbo/stacked.md
-   - mumbojumbo/staticwebsite.md
    - 'virtualboxing': 'mumbojumbo/virtualboxing/README.md'
 - About: about.md
 theme: readthedocs
