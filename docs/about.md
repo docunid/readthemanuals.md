@@ -1,3 +1,5 @@
+# about
+
 Eximple is a small consulting firm specialized in application development and cloud computing. In collaboration with our partners we can meet all your automation needs. Our motto: do not make it harder than it is. Our values:
 
 ➔ Value for money
