@@ -8,6 +8,4 @@
 
 Well, as long as you've come this far...here you'll find some techno ramblings. Enjoy. Or not.
 
-If you get bored, try reversing this identicon to its source string...(hint: github doesn't publicize its algorithm)
-
-[Eximple](https://github.com/identicons/docunid.png)
+If you get bored, try reversing [this identicon](https://github.com/identicons/docunid.png) to its source string...(hint: github doesn't publicize its algorithm)
