@@ -10,9 +10,6 @@ XMPLS originated on the Ethereum blockchain. Creating an utility token is easy a
 
 Or just browse to [the token factory](http://thetokenfactory.com/#/factory) and create your contract/token in under 1 minute :)
 
-<span><video autoplay loop muted>
-  <source src="XMPLS.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video></span>
+[![Alternate Text]({XMPLS.mp4})]({XMPLS.mp4} "Link Title")
 
 bla
