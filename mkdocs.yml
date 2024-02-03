@@ -2,7 +2,7 @@ site_name: Read The Eximple Docs
 copyright: Eximple
 repo_url: https://github.com/docunid/readthemanuals.md/
 docs_dir: 'docs'
-pages:
+nav:
 - Home: index.md
 - Projects:
    -  Advent:
